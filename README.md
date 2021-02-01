@@ -26,7 +26,7 @@ __l)ist patients of a specific pathology__ - lists in the monitor all the patien
 \<Selected Pathology\> <br/>
 \<#number\> ”\<patient name\>” <br/>
 Example: <br/>
-![Main Menu](images/LisSpecificPatients.png)
+![Main Menu](images/ListSpecificPatients.png)
 
 
 __(I)nsert a new patient__ - Input for new patient <br/>
