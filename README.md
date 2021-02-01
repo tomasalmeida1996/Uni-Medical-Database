@@ -3,46 +3,47 @@ Medical database managment system.
 
 This system contains the following operations:
 
-● It works as a “database” of patients.
-● Imports patient data from file.
-● Generates statistics of the most relevant type of pathologies (i.e. the pathologies with more patients).
+* It works as a “database” of patients.
+* Imports patient data from file.
+* Generates statistics of the most relevant type of pathologies (i.e. the pathologies with more patients).
 
 System description:
-On startup the program loads the previous database from the file “database.dmp” and presents a menu that has the following mouse-selectable options:
-L)ist all patients
-l)ist patients of a specific pathology
-I)nsert a new patient
-P)rocess new file to import patients
-D)isplay statistics
-A)bout
-E)xit
+On startup the program loads the previous database from the file “database.dmp” and presents a menu that has the following mouse-selectable options:<br/>
+L)ist all patients <br/>
+l)ist patients of a specific pathology <br/>
+I)nsert a new patient <br/>
+P)rocess new file to import patients <br/>
+D)isplay statistics <br/>
+A)bout <br/>
+E)xit <br/>
 
-Operations description:
-L)ist patients - lists in the monitor all the patients stores in the database with the following format:
-<#number> ”<patient name>”, <pathology>
-example:
-[1] “Mark Anthony”, Pathology 1
+Operations description: 
+
+__L)ist patients__ - lists in the monitor all the patients stores in the database with the following format: <br/>
+\<#number\> \<patient name\>, \<pathology\> <br/>
+example: <br/>
+[1] “Mark Anthony”, Pathology 1 <br/>
 [2] “Tom Carr”, Pathology 2
 
 
-l)ist patients of a specific pathology- lists in the monitor all the patients classified with a specific pathology. Selection of the pathology with the mouse.
-<Selected Pathology >
-<#number> ”<patient name>”
-Example:
-Pathology 1
-[1] “Mark Anthony”
+__l)ist patients of a specific pathology__ - lists in the monitor all the patients classified with a specific pathology. Selection of the pathology with the mouse. <br/>
+\<Selected Pathology\> <br/>
+\<#number\> ”\<patient name\>” <br/>
+Example: <br/>
+Pathology 1 <br/>
+[1] “Mark Anthony” <br/>
 [2] “Tom Carr”
 
 
-(I)nsert a new patient - Input for new patient
-Name of patient:
-Pathology:
-<<Main>> <<Next>>
-<<Next>> Saves this record and starts a new record
-<<Main>> Saves this record and return to Main Menu
+__(I)nsert a new patient__ - Input for new patient <br/>
+Name of patient: <br/>
+Pathology: <br/>
+\<\<Main\>\> <<Next>> <br/>
+\<<Next\>> Saves this record and starts a new record <br/>
+\<<Main\>> Saves this record and return to Main Menu
   
 
-P)rocess new file to import patients - asks to the user the path name to a file with the new patients and adds all new patient to the database. The patients are identified with the label PAT and terminated with “:”
+__P)rocess new file to import patients__ - asks to the user the path name to a file with the new patients and adds all new patient to the database. The patients are identified with the label PAT and terminated with “:”
 Example:
 
 The file:
@@ -54,7 +55,7 @@ Mark Anthony:Pathology 4
 Tom Carr:Pathology 1
 
 
-D)isplay statistics - The program displays the statistics as depicted below and waits for a key or mouse button to be pressed before returning to the main menu (integer percentages).
+__D)isplay statistics__ - The program displays the statistics as depicted below and waits for a key or mouse button to be pressed before returning to the main menu (integer percentages).
 Example:
 Total patients: 100
 Results:
@@ -66,6 +67,6 @@ Pathology 4 - 12 12%
 Pathology 5 - 10 10%
 
 
-A)bout - presents addictional information.
+__A)bout__ - presents addictional information.
 
-E)xit - terminates the program and returns to the operating system. It also stores all database data in the file “database.dmp”. Not in text. It is a dump of memory. It also stores the statistics of the most relevant pathologies in text format, in a file named “statistics.txt”.
+__E)xit__ - terminates the program and returns to the operating system. It also stores all database data in the file “database.dmp”. Not in text. It is a dump of memory. It also stores the statistics of the most relevant pathologies in text format, in a file named “statistics.txt”.
