@@ -33,20 +33,18 @@ __(I)nsert a new patient__ - Input for new patient <br/>
 ![Main Menu](images/InsertPatient.png)
   
 
-__P)rocess new file to import patients__ - asks to the user the path name to a file with the new patients and adds all new patient to the database. The patients are identified with the label PAT and terminated with “:”
+__P)rocess new file to import patients__ - asks to the user the path name to a file with the new patients and adds all new patient to the database. The patients are identified with the label PAT and terminated with “:” <br/>
 Example:
 
-The file:
-Lorem ipsum dolor sit amet, PAT Mark Anthony:Pathology 4: elit. In vel ipsum
-eget erat ultrices molestie. Duis eu elit nulla. Ut sagittis vestibulum sem. Sed
-eleifend, nunc PAT Tom Carr:Pathology 1:
-adds:
-Mark Anthony:Pathology 4
-Tom Carr:Pathology 1
+The file: <br/>
+Lorem ipsum dolor sit amet, PAT Mark Anthony:Pathology 4: elit. In vel ipsum eget erat ultrices molestie. Duis eu elit nulla. Ut sagittis vestibulum sem. Sed eleifend, nunc PAT Tom Carr:Pathology 1: <br/>
+adds: <br/>
+Mark Anthony:Pathology 4 <br/>
+Tom Carr:Pathology 1 
 
 
-__D)isplay statistics__ - The program displays the statistics as depicted below and waits for a key or mouse button to be pressed before returning to the main menu (integer percentages).
-Example:
+__D)isplay statistics__ - The program displays the statistics as depicted below and waits for a key or mouse button to be pressed before returning to the main menu (integer percentages). <br/>
+Example: <br/>
 ![Main Menu](images/Statistics.png)
 
 
